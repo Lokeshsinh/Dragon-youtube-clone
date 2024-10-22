@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 15,15);
+    color: white;
+}
+
+header{
+    height: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar i{
+    font-size: 1.3rem;
+    color: rgb(104, 102, 102);
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.navbar img{
+margin-left: 1rem;
+ width: 120px;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar1 input{
+    width: 550px;
+    height: 40px;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border: 1px solid   rgb(81, 80, 80);
+    background: transparent;
+    font-size: 1rem;
+    padding-left: 5px;
+    color: white;
+}
+
+.navbar1 #btn{
+    width: 60px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar1 #btn1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+}
+.navbar1 #btn1:hover{
+    background-color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar2 i{
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+}
+
+.navbar3{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% ;
+    background-color:rgba(109, 36, 178, 0.888) ;
+    margin-right: 1rem;
+}
+.navbar3 span{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+main{
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+.youtube{
+    width: 230px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.youtube i{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.youtube span{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.card{
+    width: 210px;
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+#i{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+#span{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+hr{
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+
+.youtube1{
+    margin-top: 0.5rem;
+}
+
+.youtube-images{
+    margin-top: 0.5rem;
+}
+
+
+.youtube-images img{
+    margin-top: 1rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sub{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.videos{
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+}
+.letters{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#span1{
+    padding: 0.6rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+#span2{
+    padding: 0.6rem;
+    background-color: rgb(40, 38, 38);
+    border-radius: 0.5rem;
+    margin-left: 1rem ;
+}
+
+.youtube-video{
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem;
+    margin-left: 3.5rem;
+}
+
+.youtube-card{
+    width: 340px;
+    height: 280px;
+}
+.youtube-card img{
+    width: 340px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card2{
+    margin-top: 0.5rem;
+    display: flex;
+}
+.card2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#span4{
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#i2{
+    margin-left: 2.3rem;
+    font-size: 1rem;
+}
+#span5{
+    margin-left: 1rem ;
+    font-size: 0.9rem;
+    color: rgb(176, 179, 180);
+}
+
+
+
+.youtube-card1{
+    width: 340px;
+    height: 280px;
+    margin-left: 2.3rem;
+}
+
+.youtube-card1 img{
+    width: 340px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.card3{
+    margin-top: 0.5rem;
+    display: flex;
+}
+.card3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.youtube-video1{
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem;
+    margin-left: 3.5rem;
+}
